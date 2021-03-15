@@ -368,8 +368,8 @@ void Play(int input,struct stockage_metric_table tab)
             obj[0].yPosition=4;
             clear();
             obj[0].page++;
-            mvprintw(1,8, "Oops Soko! Map -> %d iteration %d",obj[0].page,obj[0].test);
-            mvprintw(2,1, "Move-WSAD. Restart-R. Map-M. Exit-Q.");
+            mvprintw(1,8, "htop tu oubliera  -> %d iteration %d",obj[0].page,obj[0].test);
+            mvprintw(2,1, "Move-WSAD. Exit-w.");
             int i=0;
                 for (int y=obj[0].page*24; y<(obj[0].page+1)*24; y++)
                 {
