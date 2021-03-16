@@ -3,8 +3,8 @@ CFLAGS = -Wall -lm -lncurses -lprocps
 all: servs  exec
 servs: server.c
 	$(CC) -o server server.c
-exec: inter.c
-	$(CC) -o adem inter.c $(CFLAGS)
+exec: adem.c
+	$(CC) -o adem adem.c $(CFLAGS)
 clean:
 	rm -f *.o
 serv:

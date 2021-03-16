@@ -188,7 +188,7 @@ int main()
         open=2;
         ordre+=1;
         fclose(fp);
-
+        
 
         }
         /*
@@ -213,7 +213,7 @@ int main()
              
             */
     i++;
-    
+    printf("recu");
     
     } 
     
